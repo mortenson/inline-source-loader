@@ -1,0 +1,35 @@
+{
+  "name": "inline-source-loader",
+  "version": "0.0.1",
+  "description": "A Webpack loader that uses inline-source, treating assets as modules.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortenson/inline-source-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "inline"
+  ],
+  "author": "Samuel Mortenson <samuel@mortenson.coffee>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mortenson/inline-source-loader/issues"
+  },
+  "homepage": "https://github.com/mortenson/inline-source-loader#readme",
+  "dependencies": {
+    "inline-source": "^5.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
